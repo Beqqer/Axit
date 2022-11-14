@@ -1,43 +1,43 @@
 .section__stylish {
-    padding: 50px 15px;
-    height: 100%;
-    background: linear-gradient(rgba(30, 29, 29, 0.8), rgba(0, 0, 0, 0.5)),
+  padding: 50px 15px;
+  height: 100%;
+  background: linear-gradient(rgba(30, 29, 29, 0.8), rgba(0, 0, 0, 0.5)),
     url("../assets/images/stylish_fon.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
 }
 
 .section-header__stylish {
-    font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 42px;
-color: #fff;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #fff;
 }
 
 .section-header__line-awesome {
-    margin: 50px auto;
-    background-color: #fff;
+  margin: 50px auto;
+  background-color: #fff;
 }
 
 .section-header__subtitle {
-    color: #fff;
+  color: #fff;
 }
 
 .stylish__download {
-    width: 370px;
-    background-color: transparent;
-    color: #fff;
-    border: 2px solid #fff;
-    font-family: "Open Sans", "sans-serif";
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    padding: 15px 100px;
-    cursor: pointer;
-    position: relative;
-    left: 380px;
-  }
+  width: 370px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  font-family: "Open Sans", "sans-serif";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 15px 100px;
+  cursor: pointer;
+  position: relative;
+  left: 380px;
+}
