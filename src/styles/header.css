@@ -1,0 +1,46 @@
+.main-header__container {
+  max-width: 1250px;
+}
+
+.main-header {
+  background-color: #000;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.main-header__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.navigator-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navigator-item {
+  margin-right: 82px;
+}
+
+.navigator-item:last-child {
+  margin-right: 0;
+}
+
+.navigator-main__link {
+  font-size: 14px;
+  line-height: 19.07px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigator-main__link:hover,
+.navigator-main__link:focus,
+.navigator-main__link:active {
+  opacity: 0.75;
+}

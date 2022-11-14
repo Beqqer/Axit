@@ -1,0 +1,52 @@
+.tabs {
+  padding: 50px;
+  }
+
+.tabs__button {
+  background-color: #fff;
+  padding: 10px 70px; 
+  cursor: pointer;
+}
+
+.tabs__button--active {
+border: 1px solid #C6CBCD;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom: none;
+position: relative;
+top: 1px;
+}
+
+.tabs__content {
+  display: flex;
+  }
+
+  .tabs__content-text {
+    padding: 40px 100px;
+    border: 1px solid #C6CBCD;
+
+}
+
+  .tabs__content-title {
+font-family: 'Open Sans';
+font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+}
+
+  .tabs__content-suptitle {
+font-family: 'Raleway';
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+margin-top: 40px;
+}
+
+.tabs__content-download {
+  background-color: var(--main-orange);
+  cursor: pointer;
+  color: #fff;
+  padding: 15px 100px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 30px;  
+}
