@@ -2,11 +2,11 @@
     margin: 50px auto;
 }
 
-.contact__box {
+/* .contact__box {
     display: flex;
     flex-direction: column;
     width: 570px;
-}
+} */
 
 .contact__item {
     font-family: 'Open Sans';
@@ -15,12 +15,13 @@
   line-height: 19px;
   border-bottom: 1px solid #cecccc;
   overflow:hidden;
-  margin: 15px 30px;
+  margin: 15px auto;
   padding: 15px 0;
   outline: none; 
   border-top: none;
   border-right: none;
   border-left: none;
+  width: 570px;
 }
 
 .contact__item::placeholder {
@@ -34,12 +35,12 @@
     line-height: 19px;
     border-bottom: 1px solid #cecccc;
     overflow:hidden;
-    margin: 15px 30px;
-    padding: 15px 0;
     outline: none; 
     border-top: none;
     border-right: none;
     border-left: none;
+    display: flex;
+
 }
 
 .contact__button {
